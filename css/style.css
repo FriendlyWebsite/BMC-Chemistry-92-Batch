@@ -1,0 +1,93 @@
+body{
+  font-size: 16px;
+  font-family: 'arial',sans serif;
+  color: black;
+  background-color: white
+
+   }
+
+ h1{
+   	color: 	#FFD700;
+   }
+
+#main-box{
+    background-color: black;
+    padding: 1px;  
+    border: 2px solid black;
+    
+}
+
+#box{
+    background-color: white;
+   padding: 10px 30px 10px 30px;
+    border: 2px solid black;
+    margin-right: 300px;
+    margin-top: 10px;
+    margin-left: 300px;
+}
+
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.column {
+  float: left;
+  width: 47.33%;
+  padding: 5px 10px 30px 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+@media(max-width: 767px){
+
+  #box{
+    background-color: white;
+   padding: 10px 30px 10px 30px;
+    border: 2px solid black;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.content {
+  padding: 0 25px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+.column {
+  float: left;
+  width: 49%;
+  padding: 5px 5px 8px 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+}
